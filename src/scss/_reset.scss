@@ -1,0 +1,124 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600&display=swap');
+
+:root {
+	--bg-lv0: #000000;
+	--bg-lv1: #f4f4f4;
+	--bg-lv2: #f2f2f2;
+	--bg-lv3: #e3e3e3;
+	--bg-lv4: #d4d4d4;
+	--bg-lv5: #c5c5c5;
+	--bg-lv6: #b6b6b6;
+	--bg-lv7: #a7a7a7;
+	--bg-lv8: #989898;
+	--bg-lv9: #898989;
+	--bg-lv0-alpha: rgba(0, 0, 0, 0.7);
+	--bg-lv1-alpha: rgba(244, 244, 244, 0.7);
+	--bg-lv2-alpha: rgba(242, 242, 242, 0.7);
+	--bg-lv3-alpha: rgba(227, 227, 227, 0.7);
+	--bg-lv4-alpha: rgba(212, 212, 212, 0.7);
+	--bg-lv5-alpha: rgba(197, 197, 197, 0.7);
+	--bg-lv6-alpha: rgba(182, 182, 182, 0.7);
+	--bg-lv7-alpha: rgba(167, 167, 167, 0.7);
+	--bg-lv8-alpha: rgba(152, 152, 152, 0.7);
+	--bg-lv9-alpha: rgba(137, 137, 137, 0.7);
+}
+
+html {
+	overflow: hidden;
+}
+
+* {
+	font-weight: 400;
+	user-select: none;
+	box-sizing: border-box;
+	font-family: 'Dosis', sans-serif;
+	/* font-family: 'Outfit', sans-serif; */
+	-webkit-tap-highlight-color: transparent;
+}
+
+*::-webkit-scrollbar {
+	width: 5px;
+}
+*::-webkit-scrollbar-thumb {
+	border-radius: 5px;
+	background-color: transparent;
+}
+*::-webkit-scrollbar-thumb:horizontal {
+	height: 5px;
+}
+
+body {
+	overflow: hidden;
+	color: var(--bg-lv0);
+	background-color: var(--bg-lv9);
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active,
+a:focus {
+	text-decoration: none;
+	color: var(--bg-lv0);
+}
+
+blockquote,
+body,
+dd,
+dl,
+dt,
+fieldset,
+figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+html,
+iframe,
+legend,
+li,
+ol,
+p,
+pre,
+textarea,
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: 100%;
+	font-weight: 400;
+}
+
+ol,
+p,
+ul {
+	list-style: none;
+}
+
+$XS: 480px;
+$SM: 768px;
+$MD: 1024px;
+$XL: 1170px;
+
+@mixin Rss($size) {
+	@media only screen and (max-width: $size) {
+		@content;
+	}
+}
+
+@mixin RssVer($size) {
+	@media only screen and (max-height: $size) {
+		@content;
+	}
+}

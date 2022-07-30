@@ -1,0 +1,18 @@
+@media (max-width: 1024px) {
+	.category-sidebar {
+		width: 70px;
+
+		.title > div {
+			display: none;
+		}
+	}
+
+	.main-content {
+		left: 70px;
+		width: calc(100% - 70px);
+	}
+
+	.playlist-sidebar {
+		width: 0;
+	}
+}

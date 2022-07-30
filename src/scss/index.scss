@@ -1,0 +1,23 @@
+@import 'reset';
+@import 'animation';
+@import 'style';
+@import 'theme';
+@import 'main_content';
+@import 'player_control';
+@import 'category_sidebar';
+@import 'playlist_sidebar';
+@import 'responsive';
+
+.add-to-homescreen {
+	position: fixed;
+	z-index: 1000;
+	left: 70px;
+	bottom: 90px;
+	width: 100px;
+	height: 50px;
+	padding: 7px;
+	text-align: center;
+	color: black;
+	background-color: white;
+	border: 5px solid black;
+}

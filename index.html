@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="theme-color" content="#FF0000" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="manifest" href="manifest.json" />
+
+		<link rel="icon" href="./src/img/Logo.png" />
+		<link rel="apple-touch-icon" href="./src/public/logo/144x144.png" />
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome-animation/0.3.0/font-awesome-animation.css" />
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+		<link href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+		<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+		<link rel="stylesheet" href="./src/css/index.css" />
+		<title>YR Player</title>
+	</head>
+	<body data-theme="dark">
+		<div class="add-to-homescreen">Install App</div>
+
+		<div class="main-container">
+			<div class="main-content">
+				<div id="top" class="top-bar">
+					<div class="parts">
+						<div class="part1">
+							<i class="bi bi-arrow-left top-ico ico--click"></i>
+							<i class="bi bi-arrow-right top-ico ico--click"></i>
+							<div class="search-bar">
+								<input
+									autocomplete="off"
+									type="text"
+									name="search"
+									id="search"
+									placeholder="Type name of artist, song, ..."
+								/>
+								<div class="suggest-list">
+									<div class="title">Suggest for You</div>
+									<ul class="content"></ul>
+								</div>
+							</div>
+						</div>
+						<div class="part2">
+							<div class="icon item theme-ico">
+								<i class="bi bi-circle-square top-ico ico--click"></i>
+								<div class="theme-panel"></div>
+							</div>
+							<div class="icon item setting-ico">
+								<i class="bi bi-sliders top-ico ico--click"></i>
+								<div class="setting-panel">
+									<ul class="setting-list"></ul>
+								</div>
+							</div>
+							<div class="icon item upload-ico">
+								<input type="file" accept=".mp4, .mp3" name="upload-song" id="upload-song" multiple />
+								<label for="upload-song">
+									<i class="bi bi-upload top-ico ico--click"></i>
+								</label>
+							</div>
+							<div class="item personal-ico">
+								<img class="ava-img" src="./src/img/Logo.png" alt="Avatar" />
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Category Items -->
+				<div class="personal-section category-item">
+					<div class="banner">
+						<img src="./src/img/Logo.png" alt="Avatar" />
+						<div class="info">Yuran</div>
+					</div>
+					<div class="nav-bar">
+						<ul class="nav-links">
+							<li class="link liactive">
+								<a href="#summary">Summary</a>
+							</li>
+							<li class="link"><a href="#songs">Songs</a></li>
+							<li class="link">
+								<a href="#playlist">Playlist</a>
+							</li>
+							<li class="link"><a href="#artist">Artist</a></li>
+						</ul>
+					</div>
+					<div class="main-page">
+						<section id="songs" class="item item2">
+							<div class="title">
+								<span>
+									<a href="#songs"> Songs </a>
+								</span>
+								<div class="title-right">
+									<div class="upload-song">
+										<input type="file" accept=".mp4, .mp3" name="upload-song" id="upload-song2" multiple />
+										<label for="upload-song2" class="ico--click">
+											<i class="bi bi-upload ico ico--click"></i>
+											<span>Upload</span>
+										</label>
+									</div>
+									<div class="play-all">
+										<i class="bi bi-play ico ico--click"></i>
+										<span>Play All</span>
+									</div>
+								</div>
+							</div>
+							<div class="section-content">
+								<div class="img-preview">
+									<img src="./src/img/EdSheeran.png" alt="Shape Of You" />
+									<img src="./src/img/SummerTime.png" alt="Summer Time" />
+									<img src="./src/img/SavageLove.png" alt="Savage Love" />
+									<img src="./src/img/Nevada.png" alt="Nevada" />
+									<img src="./src/img/ModernTalking.png" alt="Cheri Cheri Lady" />
+								</div>
+								<div class="song-list">
+									<ul style="width: 100%"></ul>
+								</div>
+							</div>
+						</section>
+						<section id="playlist" class="item item3">
+							<div class="title">
+								<span>
+									<a href="#playlist"> Playlist </a>
+								</span>
+							</div>
+							<div class="section-content">
+								<div class="new-playlist">
+									<div class="create-btn"></div>
+									<div class="title">Create New Playlist</div>
+								</div>
+								<div class="swiper-container">
+									<div class="swiper-wrapper"></div>
+									<div class="swiper-pagination"></div>
+								</div>
+							</div>
+						</section>
+						<section id="artist" class="item item4">
+							<div class="title">
+								<span>
+									<a href="#artist"> Artist </a>
+								</span>
+							</div>
+							<div class="section-content swiper-container">
+								<div class="swiper-wrapper"></div>
+								<div class="swiper-button-next"></div>
+								<div class="swiper-button-prev"></div>
+							</div>
+						</section>
+					</div>
+				</div>
+				<div class="discover category-item"></div>
+				<div class="ranking-section category-item">
+					<div class="container">
+						<div class="header">
+							<p class="title">Ranking</p>
+							<p class="subtitle">from last 5 days</p>
+						</div>
+						<div class="songs">
+							<div class="itemSong featured">
+								<div class="content">
+									<span class="number">1</span>
+									<figure class="image">
+										<img src="./src/img/SavageLove.png" alt="img" />
+									</figure>
+									<div class="info">
+										<div class="text">
+											<p class="title">Savage Love</p>
+											<p class="artist">Jason Derulo</p>
+										</div>
+										<p class="plays">340</p>
+										<div class="moreInfo">
+											<div class="moreItem">
+												<i class="icon score"></i>
+												<p class="iconLabel">+3</p>
+											</div>
+
+											<div class="counters">
+												<div class="moreItem">
+													<i class="icon heart"></i>
+													<p class="iconLabel">1452</p>
+												</div>
+												<div class="moreItem">
+													<i class="icon play"></i>
+													<p class="iconLabel">5432</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="categories">
+								<p>Songs</p>
+								<p>Duration</p>
+							</div>
+
+							<div class="itemSong list">
+								<div class="content">
+									<span class="number">2</span>
+									<figure class="image">
+										<img src="./src/img/Nevada.png" alt="img" />
+									</figure>
+									<div class="info">
+										<div class="text">
+											<p class="title">Nevada</p>
+											<p class="artist">Vicetone</p>
+										</div>
+
+										<p class="plays">185</p>
+
+										<div class="moreInfo">
+											<div class="moreItem">
+												<i class="icon score"></i>
+												<p class="iconLabel">-2</p>
+											</div>
+
+											<div class="counters">
+												<div class="moreItem">
+													<i class="icon heart"></i>
+													<p class="iconLabel">325</p>
+												</div>
+												<div class="moreItem">
+													<i class="icon play"></i>
+													<p class="iconLabel">2683</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="load-remain">Load Top 20</div>
+					</div>
+				</div>
+				<div class="radio category-item"></div>
+				<div class="following category-item"></div>
+
+				<div class="new-release category-item"></div>
+				<div class="kind category-item"></div>
+				<div class="top-100 category-item">
+					<div class="container">
+						<div class="header">
+							<p class="title">Top 100 songs</p>
+							<p class="subtitle">from last 7 days</p>
+						</div>
+						<div class="songs"></div>
+						<div class="load-remain">Load Top 100</div>
+					</div>
+				</div>
+				<div class="mv category-item"></div>
+
+				<div class="song category-item"></div>
+				<div class="playlist category-item"></div>
+
+				<div class="to-top">
+					<span class="content">
+						<a href="#top">Top</a>
+					</span>
+				</div>
+			</div>
+		</div>
+
+		<script src="./src/js/render.js"></script>
+		<script src="https://cdn.jsdelivr.net/gh/napthedev/nhaccuatui-api-full@bundle/build/bundle.js"></script>
+		<script src="./src/js/script.js"></script>
+	</body>
+</html>

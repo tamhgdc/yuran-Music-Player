@@ -1,0 +1,137 @@
+[data-theme='green'] {
+	--bg-lv0: #d2ffec;
+	--bg-lv1: #a3ffd9;
+	--bg-lv2: #a1fbd8;
+	--bg-lv3: #8ae0bf;
+	--bg-lv4: #73c5a6;
+	--bg-lv5: #5caa8d;
+	--bg-lv6: #458f74;
+	--bg-lv7: #2e745b;
+	--bg-lv8: #175942;
+	--bg-lv9: #003e29;
+	--bg-lv0-alpha: rgba(210, 255, 236, 0.7);
+	--bg-lv1-alpha: rgba(163, 255, 217, 0.7);
+	--bg-lv2-alpha: rgba(161, 251, 216, 0.7);
+	--bg-lv3-alpha: rgba(138, 224, 191, 0.7);
+	--bg-lv4-alpha: rgba(115, 197, 166, 0.7);
+	--bg-lv5-alpha: rgba(92, 170, 141, 0.7);
+	--bg-lv6-alpha: rgba(69, 143, 116, 0.7);
+	--bg-lv7-alpha: rgba(46, 116, 91, 0.7);
+	--bg-lv8-alpha: rgba(23, 89, 66, 0.7);
+	--bg-lv9-alpha: rgba(0, 62, 41, 0.7);
+}
+
+[data-theme='blue'] {
+	--bg-lv0: #bac3e4;
+	--bg-lv1: #a3b7ff;
+	--bg-lv2: #a1b3fa;
+	--bg-lv3: #8a9edf;
+	--bg-lv4: #7389c4;
+	--bg-lv5: #5c74a9;
+	--bg-lv6: #455f8e;
+	--bg-lv7: #2e4a73;
+	--bg-lv8: #173558;
+	--bg-lv9: #00203d;
+	--bg-lv0-alpha: rgba(186, 195, 228, 0.7);
+	--bg-lv1-alpha: rgba(163, 183, 255, 0.7);
+	--bg-lv2-alpha: rgba(161, 179, 250, 0.7);
+	--bg-lv3-alpha: rgba(138, 158, 223, 0.7);
+	--bg-lv4-alpha: rgba(115, 137, 196, 0.7);
+	--bg-lv5-alpha: rgba(92, 116, 169, 0.7);
+	--bg-lv6-alpha: rgba(69, 95, 142, 0.7);
+	--bg-lv7-alpha: rgba(46, 74, 115, 0.7);
+	--bg-lv8-alpha: rgba(23, 53, 88, 0.7);
+	--bg-lv9-alpha: rgba(0, 32, 61, 0.7);
+}
+
+[data-theme='pink'] {
+	--bg-lv0: #facbcb;
+	--bg-lv1: #ffb8b8;
+	--bg-lv2: #fcb2b5;
+	--bg-lv3: #ea9aa4;
+	--bg-lv4: #d88293;
+	--bg-lv5: #c66a82;
+	--bg-lv6: #b45271;
+	--bg-lv7: #a23a60;
+	--bg-lv8: #90224f;
+	--bg-lv9: #7e0a3e;
+	--bg-lv0-alpha: rgba(250, 203, 203, 0.7);
+	--bg-lv1-alpha: rgba(255, 184, 184, 0.7);
+	--bg-lv2-alpha: rgba(252, 178, 181, 0.7);
+	--bg-lv3-alpha: rgba(234, 154, 164, 0.7);
+	--bg-lv4-alpha: rgba(216, 130, 147, 0.7);
+	--bg-lv5-alpha: rgba(198, 106, 130, 0.7);
+	--bg-lv6-alpha: rgba(180, 82, 113, 0.7);
+	--bg-lv7-alpha: rgba(162, 58, 96, 0.7);
+	--bg-lv8-alpha: rgba(144, 34, 79, 0.7);
+	--bg-lv9-alpha: rgba(126, 10, 62, 0.7);
+}
+
+[data-theme='orange'] {
+	--bg-lv0: #fffed0;
+	--bg-lv1: #fffeb3;
+	--bg-lv2: #fffcaf;
+	--bg-lv3: #fff096;
+	--bg-lv4: #ffe47d;
+	--bg-lv5: #ffd864;
+	--bg-lv6: #ffcc4b;
+	--bg-lv7: #ffc032;
+	--bg-lv8: #ffb419;
+	--bg-lv9: #ffa800;
+	--bg-lv0-alpha: rgba(255, 254, 208, 0.7);
+	--bg-lv1-alpha: rgba(255, 254, 179, 0.7);
+	--bg-lv2-alpha: rgba(255, 252, 175, 0.7);
+	--bg-lv3-alpha: rgba(255, 240, 150, 0.7);
+	--bg-lv4-alpha: rgba(255, 228, 125, 0.7);
+	--bg-lv5-alpha: rgba(255, 216, 100, 0.7);
+	--bg-lv6-alpha: rgba(255, 204, 75, 0.7);
+	--bg-lv7-alpha: rgba(255, 192, 50, 0.7);
+	--bg-lv8-alpha: rgba(255, 180, 25, 0.7);
+	--bg-lv9-alpha: rgba(255, 168, 0, 0.7);
+}
+
+[data-theme='dark'] {
+	--bg-lv0: #ffffff;
+	--bg-lv1: #d5d5d5;
+	--bg-lv2: #d2d2d2;
+	--bg-lv3: #b4b4b4;
+	--bg-lv4: #969696;
+	--bg-lv5: #787878;
+	--bg-lv6: #5a5a5a;
+	--bg-lv7: #0e0c0c;
+	--bg-lv8: #1e1e1e;
+	--bg-lv9: #000000;
+	--bg-lv0-alpha: rgba(255, 255, 255, 0.7);
+	--bg-lv1-alpha: rgba(213, 213, 213, 0.7);
+	--bg-lv2-alpha: rgba(210, 210, 210, 0.7);
+	--bg-lv3-alpha: rgba(180, 180, 180, 0.7);
+	--bg-lv4-alpha: rgba(150, 150, 150, 0.7);
+	--bg-lv5-alpha: rgba(120, 120, 120, 0.7);
+	--bg-lv6-alpha: rgba(90, 90, 90, 0.7);
+	--bg-lv7-alpha: rgba(60, 60, 60, 0.7);
+	--bg-lv8-alpha: rgba(30, 30, 30, 0.7);
+	--bg-lv9-alpha: rgba(0, 0, 0, 0.7);
+}
+
+[data-theme='light'] {
+	--bg-lv0: #535353;
+	--bg-lv1: #f4f4f4;
+	--bg-lv2: #f2f2f2;
+	--bg-lv3: #e3e3e3;
+	--bg-lv4: #d4d4d4;
+	--bg-lv5: #cfcfcf;
+	--bg-lv6: #c0c0c0;
+	--bg-lv7: #b6b6b6;
+	--bg-lv8: #b3b1b1;
+	--bg-lv9: #adadad;
+	--bg-lv0-alpha: rgba(0, 0, 0, 0.7);
+	--bg-lv1-alpha: rgba(244, 244, 244, 0.7);
+	--bg-lv2-alpha: rgba(242, 242, 242, 0.7);
+	--bg-lv3-alpha: rgba(227, 227, 227, 0.7);
+	--bg-lv4-alpha: rgba(212, 212, 212, 0.7);
+	--bg-lv5-alpha: rgba(197, 197, 197, 0.7);
+	--bg-lv6-alpha: rgba(182, 182, 182, 0.7);
+	--bg-lv7-alpha: rgba(167, 167, 167, 0.7);
+	--bg-lv8-alpha: rgba(152, 152, 152, 0.7);
+	--bg-lv9-alpha: rgba(137, 137, 137, 0.7);
+}
